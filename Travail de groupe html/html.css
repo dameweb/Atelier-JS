@@ -1,0 +1,136 @@
+body {
+  margin: 30px;
+  padding: 0px 30px;
+  position: relative;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+}
+ul {
+  display: flex;
+  list-style-type: none;
+}
+li {
+  margin-left: 20px;
+}
+button {
+  background-color: rgb(255, 81, 13);
+  border-radius: 20px 20px 20px 20px;
+  border: none;
+  color: white;
+  font-size: 25px;
+}
+.logo {
+  width: 400px;
+  height: 200px;
+}
+nav ul li a {
+  text-decoration: none;
+  font-size: 25px;
+}
+section {
+  color: blue;
+  display: flex;
+  padding: 30px;
+}
+h1 {
+  padding: 50px 30px;
+  font-size: 2rem;
+  margin-top: 70px;
+}
+.texte {
+  margin: 30px;
+  margin-top: 70px;
+  font-size: 0.8rem;
+}
+.image {
+  margin-left: 500px;
+}
+h2 {
+  text-transform: uppercase;
+  color: white;
+  margin-left: 40%;
+  position: absolute;
+}
+.services {
+  background-color: rgb(39, 3, 39);
+  display: flex;
+  position: relative;
+}
+.outils {
+  height: 200px;
+  width: 400px;
+  margin-top: 90px;
+  padding: 100px;
+}
+.p {
+  color: white;
+}
+#AS {
+  background-color: orangered;
+}
+#portfolio {
+  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: space-between;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.footer {
+  padding: 20px;
+  color: blue;
+}
+#contact {
+  color: blue;
+}
+.infos {
+  position: relative;
+  margin-left: 70px;
+  margin-top: 190px;
+  font-size: 1.5rem;
+  justify-content: space-around;
+}
+iframe {
+  height: 200px;
+  width: 400px;
+  margin-left: 700px;
+  margin-top: 5px;
+  bottom: 190px;
+  position: absolute;
+}
+footer {
+  background-color: blue;
+  height: 110px;
+  color: white;
+}
+#footer {
+  height: 50px;
+  padding: 20px;
+  font-size: 1.5rem;
+  margin-left: 35%;
+}
+#vide {
+  position: relative;
+  height: 7px;
+  width: 170px;
+  background-color: white;
+  top: 49px;
+  margin-left: 39%;
+  transform: translateX(16%);
+  border-radius: 100%;
+}
+#cercle {
+  height: 7px;
+  width: 170px;
+  background-color: white;
+  position: absolute;
+  top: 46px;
+  margin-left: 494px;
+  border-radius: 100%;
+}

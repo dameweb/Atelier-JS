@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evenements Javascript</title>
+</head>
+<body>
+    <!-- <center>
+        <div id="bloc" style="background-color: red; width: 100px; height: 70px;"> </div>
+        <br> <br>
+
+        <button type="button" id="hauteur" onclick="hauteur()">HAUTEUR</button>
+        <button type="button" id="CouleurVerte" onclick="vert()">COULEUR VERTE</button>
+        <button type="button" id="couleurInitialRose" onclick="initial()">COULEUR INITIALE</button>
+        <button type="button" id="disparaitre" onclick="disparaitre()">DISPARAITRE</button>
+        <button type="button" id="reaparaitre" onclick="reaparaitre()">REAPARAITRE</button>
+    </center>
+
+
+    <script>
+        var recup = document.getElementById('bloc');
+
+        function hauteur() {
+            document.getElementById('bloc').style.height = (document.getElementById('bloc').clientHeight + 10) + "px";            
+        }
+
+        function vert() {
+            document.getElementById('bloc').style.backgroundColor="green";
+        }
+
+        function initial() {
+            recup.style.backgroundColor="red";
+        }
+
+        function disparaitre() {
+            recup.style.backgroundColor="";
+        }
+
+        function reaparaitre() {
+            recup.style.backgroundColor="red";
+        }
+    </script> -->
+
+    <center>
+        <div id="vide" style="background-color: royalblue; width: 100px; height: 70px;" ></div>
+        <br>
+        <br>
+        <br>
+        <button type="button" id="HAUTEUR" onclick="hauteur()">HAUTEUR</button>
+        <!-- <button type="button" id="DIMINUER" onclick="hauteur()">DIMINUER</button> -->
+        <button type="button" id="VERTE" onclick="verte()">VERTE</button>
+        <button type="button" id="INITIALE" onclick="initiale()">INITIALE</button>
+        <button type="button" id="DISPARAITRE" onclick="disparaitre()">DISPARAITRE</button>
+        <button type="button" id="REAPPARAITRE" onclick="reapparaitre()">REAPPARAITRE</button>
+    </center>
+    <script>
+        var bloc = document.getElementById('vide');
+        function hauteur () {
+            document.getElementById ('vide').style.height = (document.getElementById('vide').clientHeight + 10) + "px"; 
+            
+        }
+        // function hauteur () {
+        //     document.getElementById ('vide').style.height = (document.getElementById('vide').clientHeight - 10) + "px";   
+        // }
+        function verte () {
+            document.getElementById('vide').style.background = "green" ;
+        }
+        function initiale () {
+            document.getElementById('vide').style.backgroundColor ="royalblue" ;
+        }
+        function disparaitre () {
+            document.getElementById('vide').style.backgroundColor ="" ;
+        }
+        function reapparaitre () {
+            document.getElementById('vide').style.backgroundColor ="royalblue";
+        }
+    </script>
+</body>
+</html>
